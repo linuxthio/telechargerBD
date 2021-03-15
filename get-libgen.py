@@ -57,7 +57,7 @@ def create_url_output_dir():
 			pass
 	return [url,outputfiles]
 
-def launch_(url,outputfiles):
+def launch_(url,outputfiles,recup):
 	pt=print
 	if url!="":
 		pt("Download is beginning now ......... GOOD LUCK BABY !!!")
@@ -89,7 +89,7 @@ def launch_(url,outputfiles):
 def main():
 	url,outputfiles=create_url_output_dir()
 	recup=get_cbr(url)
-	launch_(url,outputfiles)
+	launch_(url,outputfiles,recup)
 
 
 if __name__=='__main__':
