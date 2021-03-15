@@ -12,9 +12,11 @@ Cliquer sur un lien Ex: http://libgen.lc/comics/seriestable.php?series_hash=51b5
 Ouvrer un terminal allez dans le dossier contenant le script get-libgen.py et taper
 
 
-__python3 get-libgen.py DossierDestination  url__
+__python3 get-libgen.py "DossierDestination"  "url"__
 
 Ex: 
-__python3 get-libgen.py DanAir http://libgen.lc/comics/seriestable.php?series_hash=51b56e37b030b361bad944466bd884e4 
+  
+  python3 get-libgen.py DanAir http://libgen.lc/comics/seriestable.php?series_hash=51b56e37b030b361bad944466bd884e4 
+
 
 Attention ne fermer pas le terminal dans lequel vous avez lance le script
