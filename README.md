@@ -16,7 +16,7 @@ __python3 get-libgen.py "DossierDestination"  "url"__
 
 Ex: 
   
-  python3 get-libgen.py DanAir http://libgen.lc/comics/seriestable.php?series_hash=51b56e37b030b361bad944466bd884e4 
+  __python3 get-libgen.py DanAir__ http://libgen.lc/comics/seriestable.php?series_hash=51b56e37b030b361bad944466bd884e4 
 
 
 Attention ne fermer pas le terminal dans lequel vous avez lance le script
